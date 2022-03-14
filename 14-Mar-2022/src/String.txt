@@ -1,0 +1,14 @@
+String:
+       String is a collection of sequence of character. String is a class which is imported by using import java.lang package.
+       It is immutable (i.e) we can't modify the string in the same memory location.
+       Memory for a string is allocated in constant pool.(if the object name is different but the content is same it wil allocate single memory space.)
+       There are many methods in the string which is inbuilt.
+Disadvantage:
+       String class are immutable. so, it is modified in new memory location.
+       It requires more memory space.
+By making use of StringBuffer ans=d StringBuilder we can avoid this problem.
+StringBuffer and StringBuilder:
+       It is mutable.
+       we can make changes in the string in same location.
+       we can modify the string using StringBuffer and StringBuilder.
+       The memory will be allocated in heap memory.
