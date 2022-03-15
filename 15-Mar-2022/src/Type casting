@@ -1,0 +1,13 @@
+Type casting:
+            It is a method or a process that converts a data type into another data type.
+            It will done automatically by the compiler and manually by the programmer.
+Types:
+      Narrowing(manual method): converting higher order data type to lower order data type.
+                                explicit conversion.
+                                syntax: target_datatype variable = (target_datatype) source_data_variable;
+      Widening(automatic conversion):converting lower to higher order data type.
+                                     implicit conversion and safer.
+                                     Condition:
+                                            Both data type must be compatible with each other.
+                                            Target type must larger than source type.
+                                            Character type will not be able to convert because char is not compatible with the integral data types
