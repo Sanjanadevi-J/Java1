@@ -1,0 +1,14 @@
+Exception handling:
+         It is a mechanism to handle runtime errors
+         Exception will disturbs the normal flow of the program to avoid it exception handling is used.
+
+Types:
+     checked exception- compile time exception like IO exception
+     unchecked exception- runtime exception like arithmetic exception,array out of index,null pointer
+     error- errors are irrecoverable like syntax error, out of memory.
+Keywords used in exception handling:
+      try- it is block where we can write in which we are excepting the exception.
+      catch- it will handle the exception raised in try.
+      throw- it describes the error or a message about what the error is.
+      throws- gives an information to the programmer that there may occur an exception
+      finally- finally will be executed at last whether the exception is handled or not
