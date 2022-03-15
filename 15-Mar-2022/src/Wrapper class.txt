@@ -1,0 +1,13 @@
+Wrapper class:
+         It provides a mechanism to convert primitive data type into object of a class and object into data types.
+         Wrapper class is a class which wraps(encloses) around the data type and gies it as an object.
+         when we need a data type as an object in the program we can make use of it.
+         It is available in java.util package.
+         When unwrapping takes place(i.e) converting object to data type it requires methods.
+Application:
+         Autoboxing: converting data type into object - here constructor is used
+         Unboxing(unwrap): converting object into data type, we have to assign the value of object to a new variable.
+         Converting string into data type, this is also called parsing operation- here parse method is used.
+Advantage:
+         We can store null value to the wrapper class.
+         Sometimes, we need to use object instead of datatype. when working with collection framework.
