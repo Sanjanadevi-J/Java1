@@ -12,3 +12,7 @@ Keywords used in exception handling:
       throw- it describes the error or a message about what the error is.
       throws- gives an information to the programmer that there may occur an exception
       finally- finally will be executed at last whether the exception is handled or not
+Advantage:
+      it separates error code
+      helps to maintain flow of code
+      Differentiates the error
