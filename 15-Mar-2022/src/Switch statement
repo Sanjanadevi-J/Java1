@@ -1,0 +1,13 @@
+Switch statement:
+             switch statement is one condition with multiple statement. It is like if else ladder.
+             It will check the equality of a variable.
+             We can use break statement to exit the code once the condition is reach but it is not mandatory to use it.
+             If we not use break statement it will print the reached condition and the remaining followed cases.
+             In switch statement one case is independent of other so it will execute with minimum time.
+             If all the cases are false it will print the default case in the switch statement.
+Break statement:
+            If the condition is reached it came out of the loop and will not print the reached condition also.
+            break statement is used in all the loops.
+Continue statement:
+            If the condition is reached it will not execute the current iteration and jump to the next iteration and print the remaining iteration.
+            It will applicable in all the loops .
