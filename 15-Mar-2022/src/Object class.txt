@@ -1,0 +1,14 @@
+Object class:
+            Object class is the parent class of all the classes in java by default, it is the topmost class.
+            It is the root of inheritance hierarchy in any java program.
+            It is used to refer any object whose type is don't know.
+Methods:
+       toString() - returns string representation.
+       hashCode() - returns hash value of the object.
+       equals() - compares the object class object with the object from the method is called.
+       getClass()- returns runtime class.
+       clone()- it will print the exact copy of the object.
+       finalize() - garbage collector calls this method on an object.
+       wait() - it causes to wait the current thread to wait until the get class
+       notify() -wakes up the thread that are waiting for the object monitor,
+       notifyAll() -wakes up all the thread that are waiting for the objects monitor .
