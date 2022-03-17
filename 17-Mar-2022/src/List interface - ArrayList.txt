@@ -1,0 +1,29 @@
+List interface:
+              This interface is the one of the child interface of collection interface.
+              This inhibits the list type data structure
+              Insertion order is maintained ,we can store objects in ordered manner.
+              There will be any duplicate object available (duplication allowed).
+              It has: Arraylist,linked list,vector and stack . stack is a subclass of vector.
+Arraylist:
+         It implements list interface, allocates dynamic memory to store duplicate elements,maintains insertion order,
+         non-synchronized, it can use methods in list interface,allows random access, primitive data types are not used in this
+         we can use wrapper class instead of data types because it will work only by object.
+Difference between array and arraylist:
+         Array: limited size, we can't change the length once it is declared. Array can store objects as well as data types.
+         ArrayList: no limited size, we can change the length ,can add or remove elements at any time. It stores on;y object.
+List and Arraylist:
+         List stores elements in a sequence and identified by the individual index number.
+         ArrayList stores the elements in a dynamic array, it can grow when required.
+Constructors in arraylist:
+         ArrayList()- creates empty arraylist.
+         ArrayLis(collection<?extends E>c) - Arraylist with initialized elements of collection c is created.
+         ArrayList(int capacity) - Arraylist with specified capacity.
+Methods:
+       Like collections it also has many methods to perform some specific tasks.
+Generic and non-generic:
+       Non-generic:It is available before 1.5 JDK version,it can store any type of objects in the collection.
+       Generic:After 1.5 JDK version , only one type objects should be used.
+               It helps in type safe and there is no need of type casting and helps compile time checking.
+Iterating ways in Arraylist:
+         iterator,for each loop,for loop,List iterator,for each() method,for each remaining() method.
+         we can perform sorting, and we can use get set method to change the element in Arraylist.
