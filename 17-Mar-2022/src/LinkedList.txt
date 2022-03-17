@@ -1,0 +1,14 @@
+Linked List:
+           It implements list and deque interfaces, It uses doubly linked list to store elements
+           Contains duplicate, maintains insertion order, non-synchronized and manipulation is faster.
+Doubly linked list:
+         we can add or remove elements in both ends.
+Difference between Arraylist and linked list:
+         Arraylist: it uses dynamic array to store element,it is like a list,better for storing and accessing elements.
+         LinkedList: it uses doubly linked list to store element, it is like stack and queue,better for manipulation.
+Constructors:
+        LinkedList() - it builds an empty list.
+        LinkedList(collection<?extends>c) : construct a list containing the elements of the specified collection.
+Methods:
+       It has more similar methods which is in arraylist in addition to that it has
+       addFirst,addLast,pop,push,peek,getFirst,getLast,etc...
