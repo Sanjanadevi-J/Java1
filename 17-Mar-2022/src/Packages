@@ -1,0 +1,19 @@
+Package:
+        Package is a group of similar types of classes are interfaces and sub-package.
+        package keyword is used to define package.
+        package name should be in lowercase.
+Advantages:
+        It is used to categorize class and interface so that we can easily maintained.
+        Package provides access protection.
+        It removes naming collision in classes.
+Types:
+     Built-in package:There are many packages which is in the java like util,lang,io,etc. we can make use of it by using import keyword.
+     User defined package:In addition to built-in package we can also create some packages when we need . For creating new packages java uses file directory system as like a folder in computer.
+     Save the file as classname.java
+     Compile it as:C:\sources>javac classname.java
+     Run it as:c:\sources>java package name.classname
+Importing:
+        import package name.* - this will import all the classes and interfaces of this package
+        import package name.classname - this will import declared class of this package
+        fully qualified name - in this no need of importing any package but want to access everytime when we need the class in that package.
+                               importing syntax:package name.classname object = new package name.classname();
