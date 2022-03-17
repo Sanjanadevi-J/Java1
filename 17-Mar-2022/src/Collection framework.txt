@@ -1,0 +1,30 @@
+Collection framework:
+              Collection- It is an object that represents a group of objects(i.e)collection of object.
+              Framework - It gives many interfaces and classes,we can make use of it and its methods.
+                          Uses of framework results in programming efficiency and good performance.
+              Collection framework- unified architecture which represents and manipulates collection.
+                                    It provides interfaces that define various collection and classes that implement them.
+                                    It has number of interfaces , classes and algorithms.
+Advantage of using collection framework:
+              Reduces programming effort-it provides some methods,algorithms and classes
+              Increases performance- we can use a class or interface for specified works
+              Faster software reuse
+Hierarchy:
+         iterable is the super interface for all the classes and interfaces.
+         java.util package contains all the classes and interfaces for collection framework.
+         It is a base or root for all collection classes.Collection interface extends iterable interface.
+         Collection interface has many interfaces and classes . the main interfaces are list,set,queue.
+         List has: arraylist, linked list,vector and stack
+         set has: sortedset,tree set,hash set,linked hash set
+         queue has: priority queue,deque,array deque.
+Methods:
+        It has many methods which perform some operation like adding element,removing,retaining, replacing,
+        checking whether it is empty or not,iterator,cleaning, finding size ,compares element in collection,hashcode,etc...
+Iterator interface:
+            It gives iteration in forward direction only
+            It has some method:hasNext()- returns true if iterator has more elements else it will print false.
+                               objectNext()- returns the element and moves cursor to next element.
+                               remove()- removes the last element in the iterator.
+Collection interface:
+            This interface is implemented by all the classes in collection framework.It builds the foundation on which collection
+            framework depends.
