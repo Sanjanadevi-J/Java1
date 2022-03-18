@@ -1,0 +1,10 @@
+Queue:
+     It inherits collection interface , it stores the element in FIFO manner(First in first out)
+     First element is inserted first and first element is removed first.
+Methods:
+        add,offer - adds element to the queue
+        remove,poll - retrieves and remove the head element.
+        element,peek - retrieves but not removes the head element.
+
+PriorityQueue:
+       It doesn't order the elements in FIFO manner.
