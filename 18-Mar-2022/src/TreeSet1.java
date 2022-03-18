@@ -11,7 +11,7 @@ public class TreeSet1 {
         System.out.println("numbers at initial"+number);
         System.out.println("printing nearest greater number of 5:"+number.ceiling(5f));
         System.out.println("printing nearest smaller number of 5:"+number.floor(5f));
-        Iterator ite= number.descendingIterator();
+        Iterator<Float> ite= number.descendingIterator();
         System.out.println("descending order:");
         while(ite.hasNext()){
             System.out.println( ite.next());
