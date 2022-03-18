@@ -1,0 +1,8 @@
+LinkedHashSet:
+      It is class in HashSet,it is derived class of HashSet.
+      It does not store any duplicate element,it maintains insertion order and permits null value to store,non-synchronized.
+Constructors:
+     LinkedHashSet(int capacity)- initialize linked list with given capacity.
+     LinkedHashSet(int capacity,float fillRatio)-initialize capacity and load capacity from set argument.
+
+*note:the only difference between Hashset and LinkedHashSet is HashSet doesn't follow insertion order where LinkedHashSet follows.
