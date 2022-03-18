@@ -1,0 +1,15 @@
+Set:
+    Set is an interface which present inside java.util package.It extends collection package.
+    It has unordered set of elements and no duplicate elements are allowed to store,can store null value.
+    It has: HashSet,LinkedHashSet, TreeSet.
+HashSet:
+    It creates collection that uses hash table to store elements.
+    It stores only unique elements,allows null value,nin-synchronised.
+    insertion order is not maintained and element inserts is based on hashcode of the element.
+    It is good for searching and the default capacity is 16.
+Constructors:
+    HashSet()-construct a default hashset.
+    hashset(int capacity)-initialize capacity of hashset with given capacity value,capacity grows when elements are added
+    hashset(collection<?extends E>c) - initialize capacity of hashset with given capacity and load factor value.
+Methods:
+    add,clear,clone.contains,empty,iterator,remove,size,spliterator.
