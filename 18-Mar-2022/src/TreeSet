@@ -1,0 +1,14 @@
+TreeSet:
+      It uses tree for storing elements , objects are stored in ascending order.
+      It contains unique elements, access and retrieval objects is faster.
+      It does not allow null element to store,non-synchronized.
+Constructors:
+      TreeSet()-builds empty TreeSet.
+      TreeSet(Collection<?extends E>c)-builds TreeSet with the elements contained in c.
+      TreeSet(Comparator<?super E>comparator)-builds an empty TreeSet and sorted according to the user.
+      TreeSe(SortedSet<E>s)-builds TreeSet with the elements of given sorted set.
+Methods:
+    add,addAll,ceiling(returns equal or closest greatest element),floor(returns equal or closest smallest element),
+    descendingIterator(prints element in descending order),descendingSet(prints reverse order),
+    headSet(group of element less than given element),higher,lower,pollFirst,pollLast,subset.tailSet,spliterator,
+    contains,empty,clear,clone,size,first,last.
