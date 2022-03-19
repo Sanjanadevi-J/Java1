@@ -1,0 +1,11 @@
+Deque:
+     This interface is known as double ended queue.
+     It supports insertion and removal at both ends.
+Methods:
+      add,offer,remove,poll,peek,element.
+
+ArrayDeque:
+         This is a deque with resizeable array.
+         adding and removing of elements done on both the sides.
+         Null element is not stored .
+         No defined capacity, it is faster than linked list and stack.
