@@ -1,0 +1,14 @@
+HashMap:
+       It implements Map interface, based on key and value pair it get stored.
+       It has unique key , can store only one null key and multiple values.
+       Insertion order is not maintained,non-synchronised.
+       When we try to implement a duplicate key , the value of the key will be updated.
+       The only difference between HashSet and HashMap is hashSet can store only value but hashMap can store key and value.
+       It is useful for searching, deleting,updating operations.
+Linked HashMap:
+       It is same as the hashMap , the only difference is it maintains insertion order
+       whereas hashmap doesn't maintain insertion order.
+TreeMap:
+      It is based on red-black tree(i.e. ascending order)
+      It has unique keys,no null keys are stored, but multiple null values can be stored,non synchronized.
+
