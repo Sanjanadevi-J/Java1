@@ -1,0 +1,14 @@
+Map Interface:
+            Interface in collection framework but not a sub-interface of collection.
+            It represents a group of object by key-value pair.
+            key-value pair is known as entry.
+            It does not allow any duplicate key to store, but it allows duplicate value to store.
+            It has: HashMap,LinkedHashMap and TreeMap.
+            It is used to delete,update and search base on key.
+Methods:
+        put,remove,keySet,entrySet,clear,contains,equals,compute,get,hashcode,merge,replace,values,size.
+Map.Entry interface:
+       it is a sub-interface of Map interface. It returns collection view of map.
+        We can access it by using Map.Entry name.
+Methods:
+       getKey.getValue,hashCode.setValue,equals,compareByKey,compareByValue.
