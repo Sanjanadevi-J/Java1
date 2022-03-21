@@ -1,14 +1,15 @@
 import java.util.*;
 
+
 import static java.util.Map.*;
 
 public class Map1 {
     public static void main(String[]args){
         Map<Integer,String> names = new HashMap<Integer,String>();
         names.put(500,"Amir");
-        names.put(501,"Krish");
+        names.put(505,"Krish");
         names.put(502,"Ronald");
-        names.put(503,"Amir");
+        names.put(500,"Amir");
         System.out.println(names);
         for(Entry name: names.entrySet()){
             System.out.println(name.getKey()+" "+name.getValue());
