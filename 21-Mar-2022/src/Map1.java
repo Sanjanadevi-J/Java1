@@ -17,6 +17,9 @@ public class Map1 {
         System.out.println("names contains 300?:"+names.containsKey(300));
         System.out.println("names contains Amir?:"+names.containsValue("Amir"));
         System.out.println("Entry set is:"+names.entrySet());
+        System.out.println(names.values());
+        System.out.println(names.keySet());
+        System.out.println(names.hashCode());
 
     }
 }
