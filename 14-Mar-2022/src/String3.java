@@ -6,5 +6,6 @@ public class String3 {
         String s = sc.nextLine();
         System.out.println("Original string:"+s);
         System.out.println(s.codePointAt(3));
+        System.out.println(s.getClass());
     }
 }

@@ -14,6 +14,7 @@ public class NestedMap {
         System.out.println(lists.entrySet());
         System.out.println("Size of list(outer) map is:"+lists.size());
         System.out.println("Size of name(inner) map is:"+name1.size());
+        System.out.println(name1.getClass());
 
 }
 }

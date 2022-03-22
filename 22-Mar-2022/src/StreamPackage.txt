@@ -1,0 +1,11 @@
+Stream API:
+          additional package in java 8 in java.util package.
+          It doesn't store or modify the data, it will convey the source elements through intermediate pipeline to terminal.
+          It can filter,collect,map the specific data from the element.
+          Stream is a flow of data,it allows functional style operation of an element.
+          It avoids manual filtration.
+          It helps in parallel processing(internal iteration).
+          Better performance(time of execution is fast),readable.
+          We can perform operations with the help of stream.
+Methods:
+       filter,limit,collect,map,count,etc...

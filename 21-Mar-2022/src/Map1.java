@@ -20,7 +20,7 @@ public class Map1 {
         System.out.println("Entry set is:"+names.entrySet());
         System.out.println(names.values());
         System.out.println(names.keySet());
-        System.out.println(names.hashCode());
+        System.out.println(names.getClass());
 
     }
 }
