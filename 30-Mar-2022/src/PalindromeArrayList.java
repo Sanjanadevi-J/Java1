@@ -6,18 +6,18 @@ public class PalindromeArrayList {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the size of array list:");
         int listSize= input.nextInt();
-        ArrayList<Integer> palindromeList=new ArrayList<>();
+        ArrayList<Integer> givenArrayList=new ArrayList<>();
         System.out.println("Enter the elements to enter to the list:");
         for(int index=0;index<listSize;index++){
             int arrayElements=input.nextInt();
-            palindromeList.add(arrayElements);
+            givenArrayList.add(arrayElements);
         }
-        System.out.println(palindromeList);
-        ArrayList<Integer> reversedGivenNumber=new ArrayList<>();
+        System.out.println(givenArrayList);
+        ArrayList<Integer> reversedGivenArrayList=new ArrayList<>();
         for(int index=listSize-1;index>0;index--){
-            reversedGivenNumber.add(palindromeList.get(index));
+            reversedGivenArrayList.add(givenArrayList.get(index));
         }
-        if(palindromeList.equals(reversedGivenNumber)){
+        if(givenArrayList.equals(reversedGivenArrayList)){
             System.out.println("User array list is palindrome");
         }
         else{
